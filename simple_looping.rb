@@ -1,7 +1,11 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
-  
+  counter = 0
+  loop do
+    counter +=1
+    puts "Welcome to Flatiron School's Web Development Course!"
+    break if 
 end
 
 def times_iterator(number_of_times)
